@@ -1,0 +1,47 @@
+body {
+    font-family: Vazirmatn, sans-serif !important;
+    direction: rtl !important;
+}
+a {
+    text-decoration: none;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+table, th, td {
+border: 1px solid black;
+}
+h2 , h1 {
+    font-size: 28px;
+    text-align: center !important;
+}
+th, td {
+    font-size: 30px;
+    font-family: var(Vazirmatn-font-face) !important;
+    padding: 8px;
+    text-align: right;
+}
+td {
+    font-size: 40px !important;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+td:first-child {
+    color: red;
+    text-align: center;
+}
+th:first-child {
+    width: 1%;
+    
+}
+.linkk {
+    direction: ltr;
+    
+}
+td > a:hover {
+    color: wheat;
+}
